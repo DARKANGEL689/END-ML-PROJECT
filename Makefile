@@ -1,5 +1,3 @@
-# Makefile for Substack Personalized Recommendation System Project
-
 PYTHON = .venv/Scripts/python.exe
 STREAMLIT = .venv/Scripts/streamlit.exe
 PYTEST = .venv/Scripts/pytest.exe

@@ -1,21 +1,16 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
 .venv/
 venv/
 ENV/
 env/
 
-# Testing & Notebooks
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Raw dataset archives (downloaded via script)
 data/raw/*.zip
 
-# OS artifacts
 .DS_Store
 Thumbs.db
