@@ -1,0 +1,16 @@
+DecisionRule
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'High') AND (length_bucket == 'Short') AND (topic_match == 'Yes') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'High') AND (length_bucket == 'Short') AND (topic_match == 'No') THEN Predict 0
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'High') AND (length_bucket == 'Medium') AND (topic_match == 'No') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'High') AND (length_bucket == 'Medium') AND (topic_match == 'Yes') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'High') AND (length_bucket == 'Long') AND (topic_match == 'No') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'High') AND (length_bucket == 'Long') AND (topic_match == 'Yes') THEN Predict 0
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Medium') AND (topic_match == 'No') AND (length_bucket == 'Medium') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Medium') AND (topic_match == 'No') AND (length_bucket == 'Long') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Medium') AND (topic_match == 'No') AND (length_bucket == 'Short') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Medium') AND (topic_match == 'Yes') AND (length_bucket == 'Short') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Medium') AND (topic_match == 'Yes') AND (length_bucket == 'Medium') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Medium') AND (topic_match == 'Yes') AND (length_bucket == 'Long') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Low') AND (topic_match == 'No') AND (length_bucket == 'Medium') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Low') AND (topic_match == 'No') AND (length_bucket == 'Short') THEN Predict 1
+IF (topic_affinity_bucket == 'Medium') AND (popularity_bucket == 'Low') AND (topic_match == 'No') AND (length_bucket == 'Long') THEN Predict 1
